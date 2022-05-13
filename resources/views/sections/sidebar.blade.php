@@ -4,7 +4,7 @@
     <a href="{{ asset('') }}assets/index3.html" class="brand-link">
         <img src="{{ asset('') }}assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
             class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
+        <span class="brand-text font-weight-light">AdminLTE 3 X Lala Ayu</span>
     </a>
 
     <!-- Sidebar -->
@@ -68,6 +68,39 @@
                         </li>
                     </ul>
                 </li>
+                <!-- Sidebar Menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                data-accordion="false">
+                <!-- Add icons to the links using the .nav-icon class
+       with font-awesome or any other icon font library -->
+       <li class="nav-header">Menu Tambahan Lala</li>
+       <li class="nav-item">
+           <a href="{{ asset('') }}assets/sosial.html" class="nav-link">
+               <i class="nav-icon far fa-circle text-danger"></i>
+               <p class="text">Sosial</p>
+           </a>
+       </li>
+       <li class="nav-item">
+        <a href="{{ asset('') }}assets/profilala.html" class="nav-link">
+               <i class="nav-icon far fa-circle text-warning"></i>
+               <p>Profil Lala</p>
+           </a>
+       </li>
+       <li class="nav-item">
+        <a href="{{ asset('') }}assets/Terupdate.html" class="nav-link">
+               <i class="nav-icon far fa-circle text-info"></i>
+               <p>Terupdate</p>
+           </a>
+       </li>
+       <!-- Sidebar Menu -->
+       <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+            data-accordion="false">
+            <!-- Add icons to the links using the .nav-icon class
+   with font-awesome or any other icon font library -->
+   <li class="nav-header">Menu 1</li>
+   <li class="nav-item">
                 <li class="nav-item">
                     <a href="../widgets.html" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
@@ -295,7 +328,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-header">EXAMPLES</li>
+                <li class="nav-header">Menu 2</li>
                 <li class="nav-item">
                     <a href="../calendar.html" class="nav-link">
                         <i class="nav-icon far fa-calendar-alt"></i>
